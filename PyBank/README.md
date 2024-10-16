@@ -19,3 +19,7 @@ In this Challenge, you are creating a Python script to analyze the financial rec
 * `csv.reader` begins reading the CSV file from the first row. `next(csv_reader, None)` will skip the header row.
 
 * Use the file.write() function to write in analysis file(Export data in the txt file).
+
+# Reference 
+
+* For more information like file handling, looping, operators etc.I reffered the following page:(https://www.w3schools.com/python/python_operators.asp)

@@ -20,3 +20,6 @@ In this Challenge, your task is helping a small, rural town modernize its vote-c
 
 * Use the file.write() function to write in analysis file(Export data in txt file)
 
+# Reference 
+
+* For more information like file handling, looping, operators etc.I reffered the following page:(https://www.w3schools.com/python/python_file_handling.asp)
