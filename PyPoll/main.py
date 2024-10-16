@@ -11,7 +11,7 @@ csvpath=os.path.join("Resources","election_data.csv")
 with open(csvpath,encoding="UTF-8") as csvfile:
     csv_reader=csv.reader(csvfile,delimiter=",")
     
-    # read the header row first.
+    # Read the header row first.
     csv_header=next(csv_reader)
    
 
@@ -56,9 +56,9 @@ print("\n---------------------\n")
 # Export a result in text file
 with open('analysis/analysis_result_of_PyPoll.txt', 'w') as file:
      file.write("\nElection Results\n")
-     file.write("\n---------------------\n")
+     file.write("\n----------------------\n")
      file.write(f"\nTotal Votes: {total_votes}\n")
-     file.write("\n---------------------\n")
+     file.write("\n----------------------\n")
      maximum_vote=0
      winner=""
      # Here loop through we get candidate,votes total and and their percentage using  dictionary formate
@@ -70,8 +70,8 @@ with open('analysis/analysis_result_of_PyPoll.txt', 'w') as file:
           if vote>maximum_vote:
                maximum_vote=vote
                winner=candidate
-     file.write("\n---------------------\n")
+     file.write("\n----------------------\n")
      file.write(f"\nWinner: {winner}\n")
-     file.write("\n---------------------\n")
+     file.write("\n----------------------\n")
 
 

@@ -4,7 +4,7 @@ In this Challenge, you are creating a Python script to analyze the financial rec
 
 ## Instructions
 
-* Your task is to create a Python script that analyzes the records to calculate each of the following values:
+* The task is to create a Python script that analyzes the records to calculate each of the following values:
 
   * The total number of months included in the dataset.
 
@@ -18,4 +18,4 @@ In this Challenge, you are creating a Python script to analyze the financial rec
 
 * `csv.reader` begins reading the CSV file from the first row. `next(csv_reader, None)` will skip the header row.
 
-* Use the file.write() function to write analysis file(Export data in the txt file).
+* Use the file.write() function to write in analysis file(Export data in the txt file).

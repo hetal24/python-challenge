@@ -27,7 +27,7 @@ with open(csvpath,encoding="UTF-8") as csvfile:
     profit_losses=[int(row[1]) for row in data]
 
     
-    # Loop through do the total of profit and loss.
+    # Loop through calculate the total of profit and loss.
     net_amout=0
     for net in data:
         net_amout+=int(net[1])
@@ -62,7 +62,7 @@ with open(csvpath,encoding="UTF-8") as csvfile:
     else:
         average_change=0
 
-# Display output in terminal
+# Display output in the terminal
 print("\nFinancial Analysis\n")
 print("\n--------------------------------------\n")
 print(f"\nTotal Months: {len(month)}\n")
@@ -77,7 +77,7 @@ print(f"\nGreatest Increase in Profits {decrease_date} $({decrease_profit})\n")
 # Export a result in text file
 with open('analysis/analysis_result_of_PyBank.txt', 'w') as file:
     file.write("\nFinancial Analysis\n")
-    file.write("\n--------------------------------------\n")
+    file.write("\n---------------------------------------\n")
     file.write(f"\nTotal Months: {len(month)}\n")
     file.write(f"\nTotal: ${net_amout}\n")
     file.write(f"\nAverage Change: ${average_change:.2f}\n")
